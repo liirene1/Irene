@@ -1,0 +1,122 @@
+#headshot {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%
+}
+
+.section-home {
+  background: url(images/IMG_0148.JPG) no-repeat center;
+  background-size: cover;
+  /*background-position: 50% 50%;*/
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: block;
+}
+
+.content {
+  text-align: center;
+  padding-top: 2%;
+}
+
+.text-wrapper {
+  margin-top: 20px;
+}
+
+.intro h1 {
+  font-size: 36px;
+  color: white;
+}
+
+.intro p {
+  font-size: 20px;
+  color: white;
+}
+
+.chevron {
+  color: white;
+}
+
+.more {
+  animation: pulse 1.5s infinite ease;
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+/*body {
+  height: 100%
+}*/
+
+/*div {
+  display: inline-block;
+  width: 48vw;
+  height: 100vh;
+}*/
+
+/*.col-half {
+  width: 50%;
+  float: left;
+}
+
+#reverie-pic {
+  width: 45vh;
+}
+#footer {
+  clear: both;
+}*/
+
+
+
+/**{
+  font-family: Helvetica;
+}
+
+.navbar {
+    padding: 0.5em;
+    text-align: center;
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+}
+.navbar {
+    background: black;
+}
+.navbar .pure-menu-heading {
+    color: white;
+    font-weight: 400;
+    font-size: 120%;
+}
+
+.navbar .pure-menu-selected a {
+    color: grey;
+}
+.navbar a {
+    color: white;
+}
+.navbar li a:hover,
+.navbar li a:focus {
+    background: none;
+    border: none;
+    color: grey;
+}
+
+#heading {
+  float: left;
+}
+
+.navbar ul {
+  text-align: center;
+}
+
+#social-links {
+  float: right;
+  margin-top: 5px;
+}*/
+
+/*.pure-menu.pure-menu-fixed {*/
+  /*border-bottom: none;*/
+  /*z-index: 4;*/
+/*}*/
+
+/*.pure-menu-heading {
+  text-transform: none;
+}*/
