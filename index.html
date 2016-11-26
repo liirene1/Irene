@@ -93,11 +93,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
 
   <link rel="stylesheet" href="vendors/css/normalize.css">
   <link rel="stylesheet" href="vendors/css/grid.css">
+  <link rel="stylesheet" href="vendors/css/ionicons.min.css">
   <link rel="stylesheet" href="resources/css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
 
@@ -109,7 +108,7 @@
       <div class="row">
         <ul class="main-nav">
           <li><a href="#">ABOUT ME</a></li>
-          <li><a href="#">EXPERIENCE</a></li>
+          <li><a href="#">RESUME</a></li>
           <li><a href="#">PROJECTS</a></li>
           <li><a href="#">CONTACT</a></li>
         </ul>
@@ -119,35 +118,154 @@
       <img src="resources/img/Headshot.jpg" id="headshot">
       <div class="text-wrapper intro">
         <h1>IRENE LI</h1>
-        <p>SOFTWARE ENGINEER</p>
+        <h4>FULL STACK JAVASCRIPT DEVELOPER</h4>
       </div>
       <a href="#" class="btn more">
-        <span class="glyphicon glyphicon-chevron-down chevron"></span>
+        <i class="ion-ios-arrow-down chevron"></i>
       </a>
     </div>
   </header>
-  <section>
-    ABOUT ME
+  <section class="section-about">
+    <div class="row">
+      <h2>ABOUT ME</h2>
+    </div>
+    <div class="row">
+      <h3>SKILLS</h3>
+    </div>
+    <div class="row">
+      <div class="col span-1-of-3 skills-box">
+        <div class="skill">
+          <i class="ion-ios-checkmark-empty icon-small"></i>JavaScript
+        </div>
+        <div class="skill">
+          <i class="ion-ios-checkmark-empty icon-small"></i>ReactJS
+        </div>
+        <div class="skill">
+          <i class="ion-ios-checkmark-empty icon-small"></i>Redux
+        </div>
+        <div class="skill">
+          <i class="ion-ios-checkmark-empty icon-small"></i>HTML/CSS
+        </div>
+        <div class="skill">
+          <i class="ion-ios-checkmark-empty icon-small"></i>Firebase
+        </div>
 
-    world traveler
-    full stack developer
+      </div>
+      <div class="col span-1-of-3 skills-box">
+        <div class="skill">
+          <i class="ion-ios-checkmark-empty icon-small"></i>Node
+        </div>
+        <div class="skill">
+          <i class="ion-ios-checkmark-empty icon-small"></i>MongoDB
+        </div>
+        <div class="skill">
+          <i class="ion-ios-checkmark-empty icon-small"></i>MySQL
+        </div>
+        <div class="skill">
+          <i class="ion-ios-checkmark-empty icon-small"></i>MochaJS
+        </div>
+        <div class="skill">
+          <i class="ion-ios-checkmark-empty icon-small"></i>jQuery
+        </div>
 
+      </div>
+      <div class="col span-1-of-3 skills-box">
+        <div class="skill">
+          <i class="ion-ios-checkmark-empty icon-small"></i>Express
+        </div>
+        <div class="skill">
+          <i class="ion-ios-checkmark-empty icon-small"></i>Ionic
+        </div>
+        <div class="skill">
+          <i class="ion-ios-checkmark-empty icon-small"></i>Angular
+        </div>
+        <div class="skill">
+          <i class="ion-ios-checkmark-empty icon-small"></i>Bootstrap
+        </div>
+        <div class="skill">
+          <i class="ion-ios-checkmark-empty icon-small"></i>Webpack
+        </div>
 
-    SKILLS: JavaScript  ReactJS  Redux  MongoDB  Express
-            Ionic  Angular  HTML  CSS MySQL Node
-            Bootstrap  jQuery  Webpack  Firebase MochaJS
+      </div>
+    </div>
+    <div class="row">
+      <h3>PASSIONS</h3>
+      <div class="passion">
+        <i class="ion-ios-heart-outline icon-small"></i>Learning new technologies (currently ios Swift)
+      </div>
+      <div class="passion">
+        <i class="ion-ios-heart-outline icon-small"></i>Problem Solving and Social Impact
+      </div>
+      <div class="passion">
+        <i class="ion-ios-heart-outline icon-small"></i>World Traveling (20 countries and counting!)
+      </div>
+      <div class="passion">
+        <i class="ion-ios-heart-outline icon-small"></i>Competitive aerial dancing
+      </div>
+      <div class="passion">
+        <i class="ion-ios-heart-outline icon-small"></i>Dynamic photography
+      </div>
+    </div>
+
   </section>
 
-  <section>
-    EXPERIENCE
-    06-2016 - Present     02-2016 - 05-2016
-    Software Engineer     Fullstack Developer and Code Mentor
-    Elevtor               Coding House
-  </section>
+  <section class="section-projects">
+    <div class="row">
+      <h2>PROJECTS</h2>
+    </div>
+    <div class="row">
+      <div class="col span-1-of-3">
+        <div class="project-box">
+          <figure class="project-photo">
+            <img  src="resources/img/ReverieScreenshot.png" alt="Reverie Project Screenshot">
+          </figure>
+          <div>
+            <ul>
+              <li class="project-title">???</li>
+              <li>This app allows users to  ???</li>
+              <li><strong>Technologies Used: </strong> </li>
+            </ul>
+          </div>
+          <div>
+            <a href="#" class="btn btn-full">Check Out the Code</a>
+          </div>
+        </div>
+      </div>
+      <div class="col span-1-of-3">
+        <div class="project-box">
+          <figure class="project-photo">
+            <img  src="resources/img/FoodleScreenshot.png" alt="Foodle Project Screenshot">
+          </figure>
+          <div>
+            <ul>
+              <li class="project-title">FOODLE</li>
+              <li>This mobile app allows users to swipe on photos of food and queries details on chosen restaurants</li>
+              <li><strong>Technologies Used: </strong> Ionic | Angular | Node | Firebase</li>
+            </ul>
+          </div>
+          <div>
+            <a href="https://github.com/liirene1/SeeFood" target="_blank" class="btn btn-full">Check Out the Code</a>
+          </div>
+        </div>
+      </div>
+      <div class="col span-1-of-3">
+        <div class="project-box">
+          <figure class="project-photo">
+            <img  src="resources/img/ReverieScreenshot.png" alt="Reverie Project Screenshot">
+          </figure>
+          <div>
+            <ul>
+              <li class="project-title">REVERIE TRAVEL PLANNER</li>
+              <li>This web app allows users to crowdsource travel notes on destinations on their bucket list</li>
+              <li><strong>Technologies Used: </strong> Angular | Node | MySQL | MaterializeCSS</li>
+            </ul>
+          </div>
+          <div>
+            <a href="https://github.com/liirene1/reverie" target="_blank" class="btn btn-full">Check Out the Code</a>
+          </div>
+        </div>
+      </div>
 
-  <section>
-    PROJECTS
-    FOODLE                   REVERIE TRAVEL PLANNER
   </section>
 
   <section>
