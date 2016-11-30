@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="vendors/css/normalize.css">
   <link rel="stylesheet" href="vendors/css/grid.css">
   <link rel="stylesheet" href="vendors/css/ionicons.min.css">
+  <link rel="stylesheet" href="vendors/css/animate.css">
   <link rel="stylesheet" href="resources/css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
 
@@ -18,10 +19,10 @@
     <nav>
       <div class="row">
         <ul class="main-nav">
-          <li><a href="#">ABOUT ME</a></li>
-          <li><a href="#">RESUME</a></li>
-          <li><a href="#">PROJECTS</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a href="#about">ABOUT ME</a></li>
+          <li><a href="resources/Irene_Li_Resume.pdf" target="_blank">RESUME</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
         </ul>
       </div>
     </nav>
@@ -31,12 +32,12 @@
         <h1>IRENE LI</h1>
         <h4>FULL STACK JAVASCRIPT DEVELOPER</h4>
       </div>
-      <a href="#" class="btn more">
+      <a href="#about" class="btn more">
         <i class="ion-ios-arrow-down chevron"></i>
       </a>
     </div>
   </header>
-  <section class="section-about">
+  <section class="section-about" id="about">
     <div class="row">
       <h2>ABOUT ME</h2>
       <h5>San Francisco based Software Engineer who loves building disruptive technologies with innovative user interfaces.</h5>
@@ -44,7 +45,7 @@
     <div class="row">
       <h3>SKILLS</h3>
     </div>
-    <div class="row">
+    <div class="row skills-portion">
       <div class="col span-1-of-3 skills-box">
         <div class="skill">
           <i class="ion-ios-checkmark-empty icon-small"></i>JavaScript
@@ -92,7 +93,7 @@
           <i class="ion-ios-checkmark-empty icon-small"></i>Angular
         </div>
         <div class="skill">
-          <i class="ion-ios-checkmark-empty icon-small"></i>Bootstrap
+          <i class="ion-ios-checkmark-empty icon-small"></i>SASS/Bootstrap
         </div>
         <div class="skill">
           <i class="ion-ios-checkmark-empty icon-small"></i>Webpack
@@ -102,32 +103,34 @@
     </div>
     <div class="row">
       <h3>PASSIONS</h3>
-      <div class="passion">
-        <i class="ion-ios-heart-outline icon-small"></i>Learning new technologies (currently ios Swift)
-      </div>
-      <div class="passion">
-        <i class="ion-ios-heart-outline icon-small"></i>Problem Solving and Social Impact
-      </div>
-      <div class="passion">
-        <i class="ion-ios-heart-outline icon-small"></i>World Traveling (20 countries and counting!)
-      </div>
-      <div class="passion">
-        <i class="ion-ios-heart-outline icon-small"></i>Competitive aerial dancing
-      </div>
-      <div class="passion">
-        <i class="ion-ios-heart-outline icon-small"></i>Dynamic photography
+      <div class="passions-portion">
+        <div class="passion">
+          <i class="ion-ios-heart-outline icon-small"></i>Learning new technologies (currently ios Swift)
+        </div>
+        <div class="passion">
+          <i class="ion-ios-heart-outline icon-small"></i>Problem Solving and Social Impact
+        </div>
+        <div class="passion">
+          <i class="ion-ios-heart-outline icon-small"></i>World Traveling (20 countries and counting!)
+        </div>
+        <div class="passion">
+          <i class="ion-ios-heart-outline icon-small"></i>Competitive aerial dancing
+        </div>
+        <div class="passion">
+          <i class="ion-ios-heart-outline icon-small"></i>Dynamic photography
+        </div>
       </div>
     </div>
 
   </section>
 
-  <section class="section-projects">
+  <section class="section-projects" id="projects">
     <div class="row">
       <h2>PROJECTS</h2>
     </div>
     <div class="row">
       <div class="col span-1-of-3">
-        <div class="project-box">
+        <div class="project-box new-project">
           <figure class="project-photo">
             <img  src="resources/img/ReverieScreenshot.png" alt="Reverie Project Screenshot">
           </figure>
@@ -161,7 +164,7 @@
         </div>
       </div>
       <div class="col span-1-of-3">
-        <div class="project-box">
+        <div class="project-box reverie">
           <figure class="project-photo">
             <img  src="resources/img/ReverieScreenshot.png" alt="Reverie Project Screenshot">
           </figure>
@@ -180,7 +183,7 @@
 
   </section>
 
-  <section class="section-form">
+  <section class="section-form" id="contact">
     <div class="row">
       <h2>SEND ME A MESSAGE</h2>
     </div>

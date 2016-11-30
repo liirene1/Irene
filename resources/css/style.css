@@ -28,10 +28,9 @@ body {
   margin: 0 auto; /*same as 0 auto 0 auto. this centers a div inside the container*/
 }
 
-section {
-  /*space between elements is margin but use padding because some secitons will have bg colors. to preserve bg colors, space needs to be inside the boxes*/
-  padding: 80px 0;
-}
+/*space between elements is margin but use padding because some secitons will have bg colors. to preserve bg colors, space needs to be inside the boxes*/
+
+section { padding: 80px 0; }
 
 /* ----- HEADINGS -----*/
 
@@ -118,15 +117,11 @@ input[type="submit"] {
 .btn:hover,
 .btn:active,
 input[type="submit"]:hover,
-input[type="submit"]:active {
-  background-color: #cf6d17;
-}
+input[type="submit"]:active { background-color: #cf6d17; }
 
 .btn-full:hover,
 .btn-full:active,
-input[type="submit"] {
-  border: 1px solid #e67e22;
-}
+input[type="submit"] { border: 1px solid #e67e22; }
 
 .chevron {
   color: white;
@@ -134,9 +129,7 @@ input[type="submit"] {
   width: 50px;
 }
 
-.more {
-  animation: pulse 1.5s infinite ease;
-}
+.more { animation: pulse 1.5s infinite ease; }
 
 /* ----------LINKS ----------*/
 a:link,
@@ -153,8 +146,6 @@ a:active {
   color: #555;
   border-bottom: 1px solid transparent;
 }
-
-
 
 /* -------------------------------------------*/
 /* HEADER */
@@ -202,9 +193,7 @@ header {
 }
 
 .main-nav li a:hover,
-.main-nav li a:active {
-  border-bottom: 2px solid #e67e22;
-}
+.main-nav li a:active { border-bottom: 2px solid #e67e22; }
 
 /* Sticky Navi */
 
@@ -218,7 +207,7 @@ header {
   z-index: 9999; /*find vertical stacking of elements, sticky nav will always be on top */
 }
 
-.sticky .main-nav { margin-top: 18px;}
+.sticky .main-nav { margin-top: 18px; }
 
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
@@ -235,9 +224,7 @@ header {
 /* -------------------------------------------*/
 /* PROJECTS */
 /* -------------------------------------------*/
-.section-projects {
-  background-color: #f4f4f4;
-}
+.section-projects { background-color: #f4f4f4; }
 
 .project-box {
   background-color: #fff;
@@ -252,17 +239,9 @@ header {
   border-bottom: 1px solid #e8e8e8;
 }
 
-.project-box ul {
-  list-style: none;
-}
-
-.project-box ul li {
-  padding: 5px 0;
-}
-
-.project-title {
-  font-size: 150%
-}
+.project-box ul { list-style: none; }
+.project-box ul li { padding: 5px 0; }
+.project-title { font-size: 150%; }
 
 .project-photo {
   width:100%;
@@ -313,9 +292,7 @@ textarea {
   color: black;
 }
 
-*:focus {
-  outline: none;
-}
+*:focus { outline: none; }
 
 /* -------------------------------------------*/
 /* FOOTER */
@@ -328,9 +305,7 @@ footer {
   text-align: center;
 }
 
-.social-links {
-  list-style: none;
-}
+.social-links { list-style: none; }
 
 .social-links li {
   display: inline-block;
@@ -346,29 +321,35 @@ footer {
 }
 
 .social-links li a:link,
-.social-links li a:visited {
-  font-size: 160%;
-}
+.social-links li a:visited { font-size: 160%; }
 
 .ion-social-twitter,
 .ion-social-github,
-.ion-social-linkedin {
-  transition: color 0.2s;
-}
+.ion-social-linkedin { transition: color 0.2s; }
 
-.ion-social-twitter:hover {
-  color: #00aced;
-}
-
-.ion-social-linkedin:hover {
-  color: #007bb5;
-}
-
-.ion-social-github:hover {
-  color: #fff;
-}
+.ion-social-twitter:hover { color: #00aced; }
+.ion-social-linkedin:hover { color: #007bb5; }
+.ion-social-github:hover { color: #fff; }
 
 footer p {
   color: #888;
   margin-top: 20px;
+}
+
+/* -------------------------------------------*/
+/* ANIMATIONS */
+/* -------------------------------------------*/
+.passions-portion,
+.skills-portion,
+.reverie,
+.new-project {
+  opacity: 0;
+  animation-duration: 1s;
+}
+
+.passions-portion.animated,
+.skills-portion.animated,
+.reverie.animated,
+.new-project.animated {
+  opacity: 1;
 }
